@@ -1,0 +1,28 @@
+﻿{% extends "app/layout.html" %}
+{% block content %}
+{% load staticfiles %}
+
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <title>Полезные ресурсы</title>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
+        <link rel="icon" href="{% static 'app/photo/favicon (2).ico' %}" type="image/x-icon">
+        <link rel="icon" href="{% static 'app/photo/favicon (2).ico' %}" type="image/x-icon">
+    </head>
+    <body>
+<ul>
+<li> <a href ="https://www.povarenok.ru/" target="_blank"> <img src="{% static 'app/photo/logo1.png' %}" alt="Logo 1"/></a> </li>
+<br>
+<li> <a href ="https://www.russianfood.com/recipes/" target="_blank"> <img src="{% static 'app/photo/logo2.png' %}" alt="Logo 2"/></a> </li>
+<br>
+<li> <a href ="https://www.djurenko.com/cooking/osnovnye-blyuda/pasta-di-pollo.html" target="_blank"> <img src="{% static 'app/photo/logo3.png' %}" alt="Logo 3"/></a> </li>
+
+    </ul>
+
+    </body>
+        </html>
+
+{% endblock %}
